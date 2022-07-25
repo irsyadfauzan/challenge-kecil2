@@ -1,0 +1,235 @@
+html {
+    background-color: #1B1B32;
+}
+
+body {
+    max-width:max-content;
+    background-color: #1B1B32;
+    margin:auto;
+}
+
+h1 {
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color:white;
+    justify-content: center;
+    text-align:center;
+    margin-top:0;
+    padding-top:78px;
+    margin-bottom:24px;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:white;
+    text-align:center;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:white;
+}
+
+a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color:#4F8ACF;
+    }
+
+span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:#4F8ACF;
+}   
+
+.center {
+    max-width:498px;
+    margin:auto;
+}
+
+
+input[type=text] {
+    width: 466px;
+    padding:12px 16px 11px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 8px;
+    background-color:#101022;
+    border:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+input[type=password] {
+  width: 466px;
+  padding:12px 16px 11px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 8px;
+  background-color:#101022;
+  border:none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+input[type=email] {
+  width: 466px;
+  padding:12px 16px 11px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 8px;
+  background-color:#101022;
+  border:none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+label {
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:white;
+}
+
+#bio{
+    height:90px;
+    width: 466px;
+    padding:12px 16px 11px 16px;
+    background:#101022;
+    border-radius:8px;
+    border:none;
+    margin-top:7px;
+    margin-bottom:33px;
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+input[type=radio],
+input[type=checkbox]{
+  /* hide original inputs */
+  visibility: hidden;
+  position: absolute;
+}
+input[type=radio] + label,
+input[type=checkbox] + label{
+  cursor:pointer;
+}
+input[type=radio] + label:before,
+input[type=checkbox] + label:before{
+  height:14px;
+  margin-right: 8px;
+  content: " ";
+  display:inline-block;
+  vertical-align: baseline;
+  transition: 0.3s;
+  border-radius:10px;
+  transition: 0.3s;
+  background:#D9D9D9;
+}
+
+/* CUSTOM RADIO AND CHECKBOX STYLES */
+/* DEFAULT */
+input[type=radio] + label:before{
+  border-radius:50%;
+  width:14px;
+}
+input[type=checkbox] + label:before{
+  border-radius:4px;
+  width:14px;
+}
+/* CHECKED */
+input[type=radio]:checked + label:before{
+  box-shadow: inset 0 -1px 3px #e4e4e4, inset 0 0 1px #222, inset 0 0 0 3px indianred;
+}
+input[type=checkbox]:checked + label:before{
+  box-shadow: inset 0 -1px 3px #e4e4e4, inset 0 0 1px #222, inset 0 0 0 3px indianred;
+}
+
+.accept {
+  margin-top:32px;
+  margin-bottom:48px;
+}
+
+.space {
+  margin-left:27px;
+}
+
+.bottom {
+  padding-bottom:121px;
+}
+
+.submitform {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  background-color:transparent;
+  min-width: 496px;
+  line-height: 45px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  color:white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  margin-top:48px;
+}
+
+.submitform:hover{
+  background-color:indianred;
+  transition:0.3s;
+  cursor:pointer;
+}
+
+br {
+  display:block;
+  content:'';
+  margin-top:32px;
+}
+
+a:link {
+  text-decoration:none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color:#4F8ACF;
+}  
