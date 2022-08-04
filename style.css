@@ -5,6 +5,20 @@ html {
 body {
     background-color: #1B1B32;
     margin:auto;
+    justify-content: center;
+}
+
+.formi {
+
+}
+
+.flexbox {
+  display:flex;
+}
+
+.wrapper {
+  max-width:498px;
+  margin:auto;
 }
 
 h1 {
@@ -58,17 +72,10 @@ span {
     color:#4F8ACF;
 }   
 
-.center {
-    max-width:498px;
-    margin:auto;
-}
-
-
 input[type=text] {
-    width: 466px;
+    width:94%;
     padding:12px 16px 11px 16px;
     margin: 8px 0;
-    display: inline-block;
     border-radius: 8px;
     background-color:#101022;
     border:none;
@@ -81,7 +88,7 @@ input[type=text] {
 }
 
 input[type=password] {
-  width: 466px;
+  width: 94%;
   padding:12px 16px 11px 16px;
   margin: 8px 0;
   display: inline-block;
@@ -97,7 +104,7 @@ input[type=password] {
 }
 
 input[type=email] {
-  width: 466px;
+  width: 94%;
   padding:12px 16px 11px 16px;
   margin: 8px 0;
   display: inline-block;
@@ -123,7 +130,7 @@ label {
 
 #bio{
     height:90px;
-    width: 466px;
+    width: 94%;
     padding:12px 16px 11px 16px;
     background:#101022;
     border-radius:8px;
@@ -197,7 +204,7 @@ input[type=checkbox]:checked + label:before{
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   background-color:transparent;
-  min-width: 496px;
+  width:100%;
   line-height: 45px;
   text-align:center;
   text-decoration:none;
